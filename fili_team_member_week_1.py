@@ -1,2 +1,9 @@
-number = int(input("Enter an integer: "))
-print("Even" if number % 2 == 0 else "Odd")
+#user input
+num=int(input('enter a number:'))
+
+factorial = 1
+
+for i in range(1,num+1):
+    factorial *=i
+
+print('factorial:',factorial)
