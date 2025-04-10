@@ -1,6 +1,2 @@
-#user input for start and end values
-start = int(input("Start: "))
-end = int(input("End: "))
-
-for i in range(start, end + 1):
-    print(i)
+number = int(input("Enter an integer: "))
+print("Even" if number % 2 == 0 else "Odd")
